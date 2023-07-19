@@ -1,0 +1,151 @@
+body{
+   margin: 0%;
+   box-sizing: border-box   ;
+   min-height: 100vh;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
+/*  
+ article{
+   
+    height: 200px;
+    width: 100px;
+       } */
+
+.button{
+     height: 200px;
+    width: 500px;
+    padding: 10px 20px;
+    border: solid 2px black;
+    background-color: aqua;
+    border-radius: 8px;
+    margin: 100px;
+    color:green;
+    font-size: large;
+    text-decoration: none;
+    color:orchid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+    padding: 10px 20px;
+    border: solid 2px black;
+    background-color: aqua;
+    border-radius: 8px;
+    margin: 100px;
+    color:green;
+    font-size: large;
+    text-decoration: none;
+    color:orchid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.image{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    float: right;
+
+}
+section{
+    background-color: lightcyan;
+    height: 299px;
+}
+
+ .navbar{ 
+
+    margin: 0%;
+    display:flex;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.sanku{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    border: solid 2px black;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shiv{
+    height: 50px;
+    width: 100px;
+    background-color:cornflowerblue;
+    color: white;
+    border: solid 2px black;
+    
+}
+footer{
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    /* float: bottom; */
+}
+aside{
+    float: left;
+    min-height: calc(100vh - 100px);
+    background-color: brown;
+}
+.sanku .shiv:nth-child(1){
+    background-color: darkorange;
+}
+.sanku .shiv:nth-child(2){
+    background-color:gold;
+}
+section h1 + p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.button:hover{
+    background-color: antiquewhite;
+}
+button:active{
+    background-color: cadetblue;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    /* transform: translate(80%, 80%) rotate(120deg) skew(20deg, 10deg) scale(1); */
+    border: solid 10px black;
+    position: relative;
+    animation-name: change-location;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes change-location {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: red;
+        left: 200px;
+        top: 0;
+    }
+    50%{
+        background-color: aqua;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: pink;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+}
