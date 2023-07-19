@@ -1,0 +1,200 @@
+.main{
+    height: 100px;
+    width: 100%;
+    background-color:transparent;
+    padding:0;
+    margin: 0;
+    position:fixed;
+    z-index: 1;
+}
+.nalla{
+    height: 150px;
+    width: 1400px;
+    background-color: white;
+    /* z-index: 1; */
+}
+
+.main-2{
+    height: 520px;
+    width: 1500px;
+    /* background-color: gray; */
+    /* background-position: right; */
+    float: left;
+}
+.a{
+    height: 100px;
+    width: 1000px;
+    align-items: center;
+    /* background-color: aqua; */
+    top: 0%;
+    left:5%;
+}
+.icon{
+    width: 150px;
+    height: 100px;
+    /* background-color: white; */
+    /* border: solid 2px black; */
+    background-image:url(./tekdi.png);
+    background-size: 100px 95px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position:relative;
+    float: left;
+}
+.b{
+    width: 70px;
+    height:100px;
+    float: left;
+    position:relative;
+    top: 30%;
+    left: 60%;
+}
+.c{
+    width: 50px;
+    height:100px;
+    float: left;
+    position:relative;
+    top: 30%;
+    left: 64%;
+    /* justify-content: space-evenly; */
+}
+.d{
+    width: 50px;
+    height:100px;
+    float: left;
+    position:relative;
+    top: 30%;
+    left: 71%;
+}
+.e{
+    width: 170px;
+    height:100px;
+    position:relative;
+    float: left;
+    top: 30%;
+    left: 78%;
+    /* background-color: gray; */
+}
+.b, .c, .d, .e{
+    color: white;
+    justify-content: space-evenly;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+.f{
+    height: 150px;
+    width: 1500;
+    background-color: white;
+}
+.box{
+    height: 100px;
+    width: 350px;
+    /* background-color: white; */
+    position: relative;
+    top: 200%;
+    left: 10%;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* .icon, .b, .c, .d{
+    position: sticky; 
+} */
+.two{
+    height: 400px;
+    width: 1500px;
+    background-color:cornsilk;
+    display: flex;
+    /* justify-content: center; */
+    align-items:left;
+    padding-top: 250px;
+
+}
+.two-1{
+    height: 500px;
+    width: 1500px;
+    background-color: white;
+}
+.two .two-2{
+    /* display: flex; */
+    height: 100px;
+    width: 400px;
+    /* position:relative; */
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center */
+    /* position:relative;
+    top: 150%;
+    left: 20%; */
+    margin-left: 200px;
+    margin-top: -200px;
+    color: black;
+}
+p{
+    font-size:x-large;
+}
+/* section{
+    display: flex;
+    align-items: center;
+    justify-content: center  
+} */
+
+
+
+/*.drop-button{
+    background-color: aquamarine;
+    border: none;*/
+
+}
+.drop-down{
+    position: relative;
+    display: inline-block
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.drop-content a {
+    text-decoration: none;
+    display: block;
+
+}
+.drop-down:hover .drop-content{
+    display: block;
+}
+ .bg img{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+.box{
+    position: relative;
+    height: 400px;
+    width:400px;
+    /* background-color: blue; */
+    top:300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+
+}
+.grid-container{
+    display: block;
+    margin: 10px;
+}
+.product-image{
+    max-width: 200px;
+    max-height: 180px;
+    height: 150px;
+}
+img{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
